@@ -32,7 +32,7 @@ El objetivo es que el MCP Server traduzca las llamadas del cliente web a las API
 - [ ] Leer `BASE_URL`, `API_KEY` desde entorno o `appsettings`.
 - [ ] Configurar `HttpClient` con:
 - `BaseAddress = BASE_URL`
-- Header `Authorization: Bearer {API_KEY}`
+- Header `Authorization: X-Api-Key {API_KEY}`
 - `Accept: application/json`
 - Timeouts razonables (p.ej. 30–60s).
 
